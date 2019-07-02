@@ -1,0 +1,24 @@
+#middle-mobile > div{
+    float: left;
+    width: 50%;
+    height: 250px;
+    box-sizing: border-box;
+    border-style: solid;
+}
+#bottom-mobile{
+    clear: both;
+    height: 80px;
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+@media (min-width: 769px){
+    #desktop-container{
+        display: inline;
+        box-sizing: border-box;
+    }
+    #content-right{
+        float: right;
+        width: 600px;
+        box-sizing: border-box;
+    }
+}
