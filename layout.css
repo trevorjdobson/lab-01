@@ -10,6 +10,7 @@
     height: 80px;
     box-sizing: border-box;
     border: solid 1px black;
+    background-color: brown;
 }
 @media (min-width: 769px){
     #desktop-container{

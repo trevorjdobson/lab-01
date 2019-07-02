@@ -2,21 +2,40 @@
     height: 75px;
     box-sizing: border-box;
     border: solid 1px black;
+    background-color: darkolivegreen;
 }
 #b{
     height: 150px;
     box-sizing: border-box;
     border: solid 1px black;
+    background-color: darkmagenta;
 }
 #c{
     height: 125px;
     box-sizing: border-box;
     border: solid 1px black;
+    background-color: darkkhaki;
 }
 #d{
     height: 125px;
     box-sizing: border-box;
     border: solid 1px black;
+    background-color: darkgreen;
+}
+#e{
+    background-color: darkgray;
+}
+#f{
+    background-color: darkgoldenrod;
+}
+#g{
+    background-color: darkcyan;
+}
+#h{
+    background-color: darkblue; 
+}
+#i{
+    background-color: brown;
 }
 #middle-mobile > div{
     box-sizing: border-box;
@@ -26,11 +45,34 @@
 @media (min-width: 769px){
     #a{
         height: 100px;
+        background-color: darkorange;
     }
     #b{
         float: left;
         width: 200px;
         height: 600px;
+        background-color: darkorchid;
+    }
+    #c{
+        height: 125px;
+        box-sizing: border-box;
+        border: solid 1px black;
+        background-color: darkkhaki;
+    }
+    #d{
+        background-color: rgb(100, 85, 0);
+    }
+    #e{
+        background-color: rgb(11, 201, 112);
+    }
+    #f{
+        background-color: rgb(117, 150, 240);
+    }
+    #g{
+        background-color: rgb(237, 28, 185);
+    }
+    #h{
+        background-color: rgb(194, 114, 11); 
     }
     #c-d > div{
         float: left;
@@ -54,5 +96,6 @@
         height: 150px;
         box-sizing: border-box;
         border: solid 1px black;
+        background-color: rgb(155, 177, 77);
     }
 }
