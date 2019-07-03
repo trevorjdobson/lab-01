@@ -3,39 +3,48 @@
     box-sizing: border-box;
     border: solid 1px black;
     background-color: darkolivegreen;
+    line-height: 75px;
 }
 #b{
     height: 150px;
     box-sizing: border-box;
     border: solid 1px black;
     background-color: darkmagenta;
+    line-height: 150px;
 }
 #c{
     height: 125px;
     box-sizing: border-box;
     border: solid 1px black;
     background-color: darkkhaki;
+    line-height: 125px;
 }
 #d{
     height: 125px;
     box-sizing: border-box;
     border: solid 1px black;
     background-color: darkgreen;
+    line-height: 125px;
 }
 #e{
     background-color: darkgray;
+    line-height: 250px;
 }
 #f{
     background-color: darkgoldenrod;
+    line-height: 250px;
 }
 #g{
     background-color: darkcyan;
+    line-height: 250px;
 }
 #h{
     background-color: darkblue; 
+    line-height: 250px;
 }
 #i{
     background-color: brown;
+    
 }
 #middle-mobile > div{
     box-sizing: border-box;
@@ -46,18 +55,21 @@
     #a{
         height: 100px;
         background-color: darkorange;
+        line-height: 100px;
     }
     #b{
         float: left;
         width: 200px;
         height: 600px;
         background-color: darkorchid;
+        line-height: 600px;
     }
     #c{
         height: 125px;
         box-sizing: border-box;
         border: solid 1px black;
         background-color: darkkhaki;
+        
     }
     #d{
         background-color: rgb(100, 85, 0);
@@ -78,6 +90,7 @@
         float: left;
         width: 300px;
         height: 200px;
+        line-height: 200px;
     }
     #efgh > div{
         float: left;
@@ -85,6 +98,7 @@
         height: 250px;
         box-sizing: border-box;
         border: solid 1px black;
+        line-height: 250px;
     }
     .box{
         box-sizing: border-box;
@@ -97,5 +111,6 @@
         box-sizing: border-box;
         border: solid 1px black;
         background-color: rgb(155, 177, 77);
+        line-height: 150px;
     }
 }
